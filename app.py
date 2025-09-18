@@ -43,6 +43,7 @@ def initialize_attendance_log():
 
 
 st.set_page_config(page_title="Face Recognition Attendance", layout="wide")
+# title
 st.title("Face Recognition Attendance System")
 
 if 'page' not in st.session_state:
