@@ -20,3 +20,8 @@ timestamp,user_id,user_name,department,action
 2025-09-18 18:00:37,1,sr,it,Check Out
 2025-09-18 18:06:58,2,mukesh,it,Check In
 2025-09-18 18:07:11,2,mukesh,it,Check Out
+2025-09-19 08:11:41,3,yash,cse,Check In
+2025-09-19 08:11:56,3,yash,cse,Check Out
+2025-09-19 08:12:46,3,yash,cse,Check In
+2025-09-19 08:13:02,3,yash,cse,Check Out
+2025-09-19 08:13:45,1,sr,it,Check In

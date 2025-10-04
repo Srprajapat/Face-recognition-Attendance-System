@@ -45,7 +45,7 @@ def initialize_attendance_log():
 st.set_page_config(page_title="Face Recognition Attendance", layout="wide")
 # title
 st.title("Face Recognition Attendance System")
-
+st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">', unsafe_allow_html=True)
 if 'page' not in st.session_state:
     st.session_state.page = "Home"
 
@@ -273,3 +273,30 @@ elif st.session_state.page == "View Attendance":
             st.error(f"Could not read the attendance log. Error: {e}")
     else:
         st.info("No attendance has been recorded yet.")
+
+
+# Footer
+st.markdown("---")
+st.markdown("""
+<div style="text-align: center;">
+    <p><strong>Made by srprajapat with ❤️</strong></p>
+    <p>© 2025 srprajapat. All rights reserved.</p>
+    <div>
+        <a href="https://github.com/Srprajapat/Quiz-Generator" target="_blank" style="margin: 0 15px; color: #333;">
+            <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/s_r_prajapat" target="_blank" style="margin: 0 15px; color: #1DA1F2;">
+            <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/seetaram-prajapat/" target="_blank" style="margin: 0 15px; color: #0077B5;">
+            <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://instagram.com/s_r_prajapat" target="_blank" style="margin: 0 15px; color: #E4405F;">
+            <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://srprajapat.onrender.com" target="_blank" style="margin: 0 15px; color: #FF5722;">
+            <i class="fas fa-globe fa-2x"></i>
+        </a>
+    </div>
+</div>
+""", unsafe_allow_html=True)
